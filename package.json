@@ -1,0 +1,23 @@
+{
+  "name": "arduino_gym_chat",
+  "version": "1.0.0",
+  "description": "make chatbot for gym using state with Arudino",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesWithCode/arduino_gym_chat.git"
+  },
+  "author": "minseokJeong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesWithCode/arduino_gym_chat/issues"
+  },
+  "homepage": "https://github.com/JamesWithCode/arduino_gym_chat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
