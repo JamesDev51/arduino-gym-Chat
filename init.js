@@ -1,12 +1,8 @@
-const express=require("express")
+import app from "./app"
 
-const app=express()
 const PORT=3000
 
-app.get("/",(req,res)=>{
-    res.send('Hello world!')
-})
+const handleListening = () => console.log(`✅ Listening on: http://localhost:${PORT}`)
 
-app.listen(PORT,()=>{
-    console.log(`Server listenling http://localhost:${PORT}`)
-})
+
+app.listen(PORT,handleListening)
