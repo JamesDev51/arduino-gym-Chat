@@ -8,6 +8,7 @@ export const notUsing = (req,res) => {
         isUsing=false
         console.log(`isUsing : ${isUsing}`)
         res.status(200)
+        res.end()
     }
     catch(error){
         console.log(error)
@@ -19,6 +20,7 @@ export const using = (req,res) => {
         isUsing=true
         console.log(`isUsing : ${isUsing}`)
         res.status(200)
+        res.end()
     }
     catch(error){
         console.log(error)
@@ -30,6 +32,7 @@ export const open = (req,res) => {
         isOpen=true
         console.log(`isOpen : ${isOpen}`)
         res.status(200)
+        res.end()
     }
     catch(error){
         console.log(error)
@@ -41,6 +44,7 @@ export const notOpen = (req,res) => {
         isOpen=false
         console.log(`isOpen : ${isOpen}`)
         res.status(200)
+        res.end()
     }
     catch(error){
         console.log(error)
