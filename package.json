@@ -31,8 +31,6 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/node": "^7.13.13",
-    "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.13.15"
+    "@babel/polyfill": "^7.12.1"
   }
 }
