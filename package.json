@@ -10,7 +10,7 @@
     "prebuild": "rm -rf build",
     "start": "node build/init.js",
     "prestart": "npm run build",
-    "babel-v" : "babel --version"
+    "babel-v": "babel --version"
   },
   "repository": {
     "type": "git",
@@ -24,13 +24,13 @@
   "homepage": "https://github.com/JamesWithCode/arduino_gym_chat#readme",
   "dependencies": {
     "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
     "babel-loader": "^8.2.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.15",
     "@babel/node": "^7.13.13",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.13.15"
