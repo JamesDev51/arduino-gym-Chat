@@ -5,6 +5,8 @@ import {isUsing,isOpen} from "./apiController"
 import routes from "./routes"
 import apiRouter from "./apiRouter"
 import morgan from "morgan"
+import dotenv from "dotenv"
+dotenv.config()
 
 const app = express();
 
