@@ -4,8 +4,12 @@
   "description": "make chatbot for gym using state with Arudino",
   "main": "init.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node init.js"
+    "dev:server": "babel-node src/init.js",
+    "build:server":"babel src --out-dir build",
+    "build":"npm run build:server",
+    "prebuild":"rm -rf build",
+    "start":"node build/init.js",
+    "prestart":"npm run build"
   },
   "repository": {
     "type": "git",
