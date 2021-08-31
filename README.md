@@ -6,4 +6,4 @@
  2. api for checking signal from aruino
  3. json parsing
  4. communicate with kakao open builder obt
- 5. 
+ 5. test
